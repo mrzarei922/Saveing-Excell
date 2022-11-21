@@ -1,0 +1,15 @@
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\Fast_Excel_Save_Lib.deps.json
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\Fast_Excel_Save_Lib.runtimeconfig.json
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\Fast_Excel_Save_Lib.runtimeconfig.dev.json
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\Fast_Excel_Save_Lib.dll
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\ref\Fast_Excel_Save_Lib.dll
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\bin\Debug\net5.0\Fast_Excel_Save_Lib.pdb
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.csproj.AssemblyReference.cache
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.AssemblyInfoInputs.cache
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.AssemblyInfo.cs
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.csproj.CoreCompileInputs.cache
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.dll
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\ref\Fast_Excel_Save_Lib.dll
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.pdb
+C:\Users\m.zarei.Qazvin\source\repos\Fast_Excel_Save_Lib\obj\Debug\net5.0\Fast_Excel_Save_Lib.genruntimeconfig.cache
