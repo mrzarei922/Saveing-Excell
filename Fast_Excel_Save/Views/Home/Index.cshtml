@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="form-group text-center " dir="rtl">
+    <form id="form" name="form" action="/uploader" class=""   method="post">
+        <div class="buttons ">
+            <div class="upload-button">
+                <div class="label">فایل اکسل را انتخاب کنید...</div>
+                <hr />
+                <input value="انتخاب فایل" id="files" name="files" type="file" size="1"  accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" multiple onchange="uploadFiles('files');" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+<div class="modal fade" id="Modalload" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center" >
+                <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status" id="load_div">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div id="success_div" style="display:none">
+                    <p>با موفقیت انجام گرفت</p>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">خروج</button>
+
+                </div>
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    function uploadFiles(inputId) {
+        $('#Modalload').modal('show');
+        var input = document.getElementById(inputId);
+        var files = input.files;
+        var formData = new FormData();
+        var x = document.getElementById("load_div");
+        var y = document.getElementById("success_div");
+        for (var i = 0; i != files.length; i++) {
+            formData.append("files", files[i]);
+        }
+
+        $.ajax(
+            {
+                url: "/Home/upload",
+                data: formData,
+                processData: false,
+                contentType: false,
+                type: "POST",
+                success: function (data) {
+                   
+                    x.style.display = "none";
+                    y.style.display = "block";
+                }
+            }
+        );
+    }
+</script>
